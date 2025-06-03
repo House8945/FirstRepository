@@ -1,8 +1,8 @@
 ---
 marp: true
 theme: default
-header: "こんにちは"
-footer: "さようなら"
+header: "目次のための欄､現在位置を黒字に"
+footer: "引用のための欄"
 headingDivider: 1
 paginate: true
 size: 4:3
@@ -16,6 +16,9 @@ style: |
 # Markdown 資料サンプル
 
 ---
+<!--
+class: heading
+-->
 ## 見出し
 
 ### 小見出し
@@ -26,6 +29,9 @@ style: |
 
 ## 2. 強調
 
+<!--
+class: right_bottom
+-->
 **太字**  
 *斜体*  
 ***太字かつ斜体***
@@ -34,6 +40,9 @@ style: |
 
 ## 3. 箇条書きリスト
 
+<!--
+class: lists
+-->
 - りんご
 - みかん
   - オレンジ
@@ -45,8 +54,11 @@ style: |
 ## 4. 番号付きリスト
 
 1. 朝起きる
+   1. 目を開ける
+   2. ベッドから降りる
 2. 顔を洗う
-3. 朝ごはんを食べる
+   1. 勇気を出す
+      1. 水を掬う
 
 ---
 
@@ -59,7 +71,9 @@ style: |
 ---
 
 ## 7. 引用
-
+<!--
+class: paragraph
+-->
 > Markdownは、シンプルな記号で文書を装飾できる便利なツールです。  
 
 ---
