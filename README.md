@@ -1,17 +1,26 @@
 ---
-marp: false
+marp: true
 theme: default
+header: "こんにちは"
+footer: "さようなら"
+headingDivider: 1
+paginate: true
+size: 4:3
+math: katex
+style: |
+  section::after {
+    content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
+  }
 ---
 
 # Markdown 資料サンプル
 
 ---
+## 見出し
 
-## 1. 見出し
+### 小見出し
 
-### 1.1 小見出し
-
-#### 1.1.1 さらに小さい見出し
+#### さらに小さい見出し
 
 ---
 
@@ -41,14 +50,6 @@ theme: default
 
 ---
 
-## 5. チェックボックスリスト（GitHubなど一部対応）
-
-- [x] Markdownの勉強
-- [ ] 資料を作る
-- [ ] 質問する
-
----
-
 ## 6. リンク・画像
 
 [OpenAI公式サイト](https://openai.com)
@@ -60,7 +61,6 @@ theme: default
 ## 7. 引用
 
 > Markdownは、シンプルな記号で文書を装飾できる便利なツールです。  
-> — ChatGPT
 
 ---
 
