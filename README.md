@@ -72,3 +72,12 @@ def greet(name):
     print(f"Hello, {name}!")
 
 greet("Markdown")
+
+
+
+## 表
+|`code`    |*italic*                  |
+|----------|--------------------------|
+|**bold**  |***bold italic***         |
+|$ \omega $|[Qiita](http://qiita.com)||
+
