@@ -4,10 +4,6 @@ theme: base
 paginate: true
 size: 4:3
 math: katex
-style: |
-  section::after {
-    content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
-  }
 ---
 
 # Markdown 資料サンプル

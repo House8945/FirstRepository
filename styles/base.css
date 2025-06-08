@@ -1,5 +1,6 @@
-@import "default";
-@theme base;
+/* @theme base */
+
+@import 'default';
 
 section.heading h1 {
     color: red;
