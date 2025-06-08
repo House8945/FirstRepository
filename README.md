@@ -1,9 +1,6 @@
 ---
 marp: true
 theme: default
-header: "目次のための欄､現在位置を黒字に"
-footer: "引用のための欄"
-headingDivider: 1
 paginate: true
 size: 4:3
 math: katex
@@ -17,13 +14,18 @@ style: |
 
 ---
 <!--
-class: heading
+_header: 背景 **目的** 手段 結果 考察
 -->
 ## 見出し
 
 ### 小見出し
 
 #### さらに小さい見出し
+背景 **目的** 手段 結果 考察
+
+<!--
+_footer: P.J. Marlow, & B.L. Anderson: "Material properties derived fromthree-dimensional shape representations", Vis. Res., 115, Part B,pp.199-208（2015）
+-->
 
 ---
 
