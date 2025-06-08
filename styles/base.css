@@ -97,4 +97,4 @@ section.slides h2 {
 
 section::after {
     content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
-  }
+}
