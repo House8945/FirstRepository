@@ -2,45 +2,46 @@
 marp: true
 theme: base
 paginate: true
+footer: メールアドレス
 size: 4:3
 math: katex
 ---
-
-# Markdown 資料サンプル
+<!--
+_class: paragraph
+-->
+**Markdown 資料サンプル**
 
 ---
+<!--
+_header: 背景 目的 手段 結果 考察
+-->
+# 見出し
+
+## 小見出し
+
+### さらに小さい見出し
+
+背景 **目的** 手段 結果 考察
+
+---
+
+# 2. 強調
 <!--
 _header: 背景 **目的** 手段 結果 考察
 -->
-## 見出し
-
-### 小見出し
-
-#### さらに小さい見出し
-背景 **目的** 手段 結果 考察
-
 <!--
-_footer: P.J. Marlow, & B.L. Anderson: "Material properties derived fromthree-dimensional shape representations", Vis. Res., 115, Part B,pp.199-208（2015）
--->
-
----
-
-## 2. 強調
-
-<!--
-class: right_bottom
+_class: right_bottom
 -->
 **太字**  
 *斜体*  
 ***太字かつ斜体***
 
 ---
-
-## 3. 箇条書きリスト
-
 <!--
-class: lists
+_header: 背景 **目的** 手段 結果 考察
 -->
+# 3. 箇条書きリスト
+
 - りんご
 - みかん
   - オレンジ
@@ -48,8 +49,10 @@ class: lists
 - バナナ
 
 ---
-
-## 4. 番号付きリスト
+<!--
+_header: 背景 目的 **手段** 結果 考察
+-->
+# 4. 番号付きリスト
 
 1. 朝起きる
    1. 目を開ける
@@ -59,30 +62,34 @@ class: lists
       1. 水を掬う
 
 ---
-
-## 6. リンク・画像
+<!--
+_header: 背景 目的 手段 **結果** 考察
+-->
+# 6. リンク・画像
 
 [OpenAI公式サイト](https://openai.com)
 
 ![サンプル画像](https://placehold.jp/24/cc9999/993333/200x100.png?text=Sample+Image)
 
 ---
-
-## 7. 引用
 <!--
-class: paragraph
+_header: 背景 目的 手段 結果 **考察**
 -->
-> Markdownは、シンプルな記号で文書を装飾できる便利なツールです。  
+# 7. 引用
+
+> P.J. Marlow, & B.L. Anderson: "Material properties derived fromthree-dimensional shape representations", Vis. Res., 115, Part B,pp.199-208（2015）
 
 ---
+<!--
+_header: 背景 目的 手段 結果 **考察**
+-->
+# 8. コード
 
-## 8. コード
-
-### インラインコード
+## インラインコード
 
 `print("Hello, Markdown!")`
 
-### コードブロック
+## コードブロック
 
 ```python
 def greet(name):
@@ -92,9 +99,11 @@ greet("Markdown")
 ```
 
 ---
-
+<!--
+_header: 背景 目的 手段 結果 **考察**
+-->
 ## 表
 |`code`    |*italic*                  |
-|----------|--------------------------|
+|-------|---------|
 |**bold**  |***bold italic***         |
 |$\omega$|[Qiita](http://qiita.com)|
