@@ -6,12 +6,6 @@ section.centering {
     text-align: center;
 }
 
-section a {
-  font-size: 70px;
-  font-weight: bold;
-  color: black;
-}
-
 section b {
   font-weight: bold;
   color: black;
@@ -19,8 +13,8 @@ section b {
 
 section h1 {
   position: absolute;
-  top: 60px;         /* 上からの距離 */
-  left: 20px;        /* 左からの距離 */
+  top: 1.5em;         /* 上からの距離 */
+  left: 0.5em;        /* 左からの距離 */
   font-size: 48px;
   color: black;
   font-weight: bold;
@@ -44,6 +38,9 @@ section h1 {
    display: none;
  }
 
+header {
+    font-size: 32px;
+}
 
 section::after {
     content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);

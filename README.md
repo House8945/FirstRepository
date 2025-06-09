@@ -1,15 +1,17 @@
 ---
+
 marp: true
 theme: base
 paginate: true
 size: 4:3
 math: katex
+
 ---
 <!--
 _class: centering
 -->
 ## 私でsy
-<a>Markdown 資料サンプル</a>
+## <!--fit--> Markdown 資料サンプル
 ## 私です｡
 
 ---
