@@ -6,10 +6,11 @@ size: 4:3
 math: katex
 ---
 <!--
-_class: title
+_class: centering
 -->
-**Markdown 資料サンプル**
-<a>私です｡</a>
+## 私でsy
+<a>Markdown 資料サンプル</a>
+## 私です｡
 
 ---
 <!--

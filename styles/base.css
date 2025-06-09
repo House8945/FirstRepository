@@ -2,14 +2,19 @@
 
 @import 'default';
 
-section.title {
-    font-size:70px;
+section.centering {
     text-align: center;
 }
 
-section.title a {
-    font-size: 40px;
-    text-align: center;
+section a {
+  font-size: 70px;
+  font-weight: bold;
+  color: black;
+}
+
+section b {
+  font-weight: bold;
+  color: black;
 }
 
 section h1 {
@@ -43,17 +48,6 @@ section h1 {
 section::after {
     content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
 }
-
-section b {
-  font-weight: bold;
-  color: black;
-}
-
-section c {
-  font-size: 20px;
-  text-align: center;
-}
-
 
 /*表について*/
 /* 全セルに共通スタイル（細い線） */
