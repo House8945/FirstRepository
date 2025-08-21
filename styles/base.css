@@ -11,7 +11,7 @@ section b {
   color: black;
 }
 
-section title {
+section c {
   position: absolute;
   top: 1.5em;         /* 上からの距離 */
   left: 0.5em;        /* 左からの距離 */
@@ -39,7 +39,7 @@ section title {
  }
 
 header {
-    font-size: 32px;
+    font-size: 30px;
 }
 
 section::after {
