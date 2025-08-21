@@ -11,15 +11,17 @@ section b {
   color: black;
 }
 
-c {
+/*
+section h1 {
   position: absolute;
-  top: 1.5em;         /* 上からの距離 */
-  left: 0.5em;        /* 左からの距離 */
+  top: 1.5em;         
+  left: 0.5em;       
   font-size: 48px;
   color: black;
   font-weight: bold;
   margin: 0;
 }
+*/
 
  blockquote {
    border-top: 0.1em dashed var(--black);
